@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>Anglia Ruskin University - Harvard</title>
-    <id>http://www.zotero.org/styles/harvard-anglia-ruskin-university</id>
-    <link href="http://www.zotero.org/styles/harvard-anglia-ruskin-university" rel="self"/>
+    <title>Harper Adams University - Harvard</title>
+    <id>http://www.zotero.org/styles/harvard-harper-adams-university</id>
+    <link href="http://www.zotero.org/styles/harvard-harper-adams-university" rel="self"/>
     <link href="http://libweb.anglia.ac.uk/referencing/harvard.htm" rel="documentation"/>
     <author>
       <name>Steven Singleton</name>
@@ -112,7 +112,7 @@
                 <text variable="medium" prefix="[" suffix="]"/>
               </else-if>
               <else>
-                <text term="online" prefix="[" suffix="]"/>
+                <text term="online" prefix="[" suffix="]" text-case="capitalize-first"/>
               </else>
             </choose>
           </if>
@@ -238,7 +238,7 @@
       <if variable="URL">
         <choose>
           <if type="article-journal article-magazine article-newspaper bill chapter entry-dictionary entry-encyclopedia legislation paper-conference" match="any">
-            <text term="online" prefix="[" suffix="]"/>
+            <text term="online" prefix="[" suffix="]" text-case="capitalize-first"/>
           </if>
         </choose>
       </if>

@@ -13,6 +13,12 @@ pandoc --pdf-engine=xelatex \
 	--bibliography test_bibliography_ha_style_no_urls.bib \
 	--csl harvard-harper-adams-university.csl \
 	-f markdown example-citations.md \
+	-o "tmp/bibliography-actual.pdf"
+
+pandoc --pdf-engine=xelatex \
+	--bibliography test_bibliography_ha_style_no_urls.bib \
+	--csl harvard-harper-adams-university.csl \
+	-f markdown example-citations.md \
 	-o "$output_file"
 
 echo "$output_file done"

@@ -7,7 +7,8 @@ mkdir -p tmp
 output_file="tmp/bibliography-actual.html"
 expected_file="bibliography-expected.html"
 
-./filter_urls.py test_bibliography_ha_style_carles.bib test_bibliography_ha_style_no_urls.bib
+# removes urls if they are tagged as no-urls
+./filter_urls.py test_bibliography_ha_style_examples.bib test_bibliography_ha_style_no_urls.bib
 
 pandoc --pdf-engine=xelatex \
 	--bibliography test_bibliography_ha_style_no_urls.bib \

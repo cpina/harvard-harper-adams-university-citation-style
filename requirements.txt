@@ -1,0 +1,4 @@
+bibtexparser==1.2.0
+future==0.18.2
+pyparsing==2.4.7
+ydiff==1.2

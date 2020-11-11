@@ -11,7 +11,7 @@ expected_file="bibliography-expected.html"
 
 pandoc --pdf-engine=xelatex \
 	--bibliography test_bibliography_ha_style_no_urls.bib \
-	--csl /usr/share/citation-style-language/styles/harvard-anglia-ruskin-university.csl \
+	--csl harvard-harper-adams-university.csl \
 	-f markdown example-citations.md \
 	-o "$output_file"
 

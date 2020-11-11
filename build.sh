@@ -7,8 +7,10 @@ mkdir -p tmp
 output_file="tmp/bibliography-actual.html"
 expected_file="bibliography-expected.html"
 
+./filter_urls.py test_bibliography_ha_style_carles.bib test_bibliography_ha_style_no_urls.bib
+
 pandoc --pdf-engine=xelatex \
-	--bibliography test_bibliography_ha_style.bib \
+	--bibliography test_bibliography_ha_style_no_urls.bib \
 	--csl /usr/share/citation-style-language/styles/harvard-anglia-ruskin-university.csl \
 	-f markdown example-citations.md \
 	-o "$output_file"

@@ -88,6 +88,9 @@
       <else-if type="bill legal_case legislation motion_picture" match="any">
         <text variable="collection-number"/>
       </else-if>
+      <else-if type="report">
+        <text variable="title" font-style="italic"/>
+      </else-if>
       <else>
         <choose>
           <if type="broadcast" match="none">

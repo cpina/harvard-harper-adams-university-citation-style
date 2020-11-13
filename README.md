@@ -75,3 +75,7 @@ If you want to use `filter_urls.py` you need to install bibtexparser. This can b
 ### examples/
 
 To be documented and cleaned soon.
+
+
+Jen Thomas, Carles Pina Estany
+November 2020

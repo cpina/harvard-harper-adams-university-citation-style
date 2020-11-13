@@ -1,5 +1,7 @@
 # Harvard Harper Adams University citation style
 
+**This repository and style is not endorsed by the Harper Adams University.**
+
 This repository contains: 
 
 * [Harper Adams University citation style](#use-harper-adams-university-citation-style) in CSL format

@@ -400,6 +400,11 @@
         </group>
         <text macro="locator"/>
         <text macro="container-online"/>
+	<choose>
+	  <if type="article-journal">
+            <text macro="publisher" suffix="."/>
+	  </if>
+	</choose>
         <text macro="legal-detail"/>
       </group>
       <text macro="online-access"/>

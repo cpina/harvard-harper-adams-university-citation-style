@@ -14,7 +14,7 @@ EXPECTED_FILE="bibliography-expected.html"
 # removes urls if they are tagged as no-urls
 ./filter_urls.py "$BIBTEX_FILE" test_bibliography_ha_style_no_urls.bib
 
-for OUTPUT_FILE in "$OUTPUT_HTML_FILE" "$OUTPUT_PDF_FILE" "$OUTPUT_MARKDOWN_FILE"
+for OUTPUT_FILE in "$OUTPUT_HTML_FILE" # "$OUTPUT_PDF_FILE" "$OUTPUT_MARKDOWN_FILE"
 do
 	pandoc --pdf-engine=xelatex \
 		--bibliography test_bibliography_ha_style_no_urls.bib \

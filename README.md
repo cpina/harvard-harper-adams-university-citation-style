@@ -1,6 +1,6 @@
 # Harvard Harper Adams University citation style
 
-**This repository and style is not endorsed by the Harper Adams University.**
+**This repository and style file is not endorsed by the Harper Adams University.**
 
 This repository contains: 
 

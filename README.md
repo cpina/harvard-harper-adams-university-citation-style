@@ -4,7 +4,7 @@ This repository contains:
 
 * [Harper Adams University citation style](#use-harper-adams-university-citation-style) in CSL format
 * [Background](#background) on the style
-* [Tools](#tools) to verify style and documentation  
+* [Files](#files) description of the files and how to use them
 
 ## Use Harper Adams University citation style
 
@@ -38,13 +38,15 @@ More types will be verified as time allows.
 
 ### Testing 
 
-We have tested this using Zotero only. We used Zotero which allows us to:
+We have tested this using [Zotero](http://zotero.org/) with [Better BibTeX plugin](https://retorque.re/zotero-better-bibtex/installation/) using the exporter `Better BibLaTeX` which allows us to:
 
  * Force italics in titles: `This article describes <i>names of species</i>`
  * Protect the case: `Cross pollination of ‘Sundrop’ apricot (<span class="nocase">prunus armeniaca</span> L.) <span class="nocase">by</span> honeybees`)
  * Keywords for the `no-url` keyword. Keywords are exported and used by `filter_urls.py` to generate another .bib file to be used 
 
-## Tools
+See the file [test-style.sh](#test-stylesh)
+
+## Files
 
 ### expected.html
 

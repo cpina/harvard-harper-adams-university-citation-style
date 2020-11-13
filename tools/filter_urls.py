@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# Harper Adams style has a concept of "this is an only online journal"
+# or "print journal". If it is in print the style says to not include the URL.
+# But the Zotero/your reference manager document might still have a
+# URL: using the keyword this script can filter the URL out before
+# it makes it to Pandoc / LaTeX
+
 import argparse
 
 import bibtexparser
@@ -22,11 +28,11 @@ def filter_urls_out(input_file_path, output_file_path):
     for entry in bib_database.entries:
         if 'no-url' in entry.get('keywords', []):
             del entry['url']
-            print('Should exclude url')
 
     # write
     bibtex_output_file = open(output_file_path, 'w')
     bibtexparser.dump(bib_database, bibtex_output_file)
+    print(f'Generated file excluding URLs: {output_file_path}')
 
 
 if __name__ == '__main__':

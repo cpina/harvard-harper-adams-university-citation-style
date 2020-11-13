@@ -116,7 +116,7 @@
                 <text variable="medium" prefix="[" suffix="]"/>
               </else-if>
               <else>
-                <text term="online" prefix="[" suffix="]" text-case="capitalize-first"/>
+                <text term="online" prefix="[" suffix="]." text-case="capitalize-first"/>
               </else>
             </choose>
           </if>

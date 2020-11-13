@@ -372,7 +372,7 @@
     </sort>
     <layout suffix=".">
       <group delimiter=" ">
-        <text macro="cite-author"/>
+        <text macro="cite-author" suffix="."/>
         <choose>
           <if type="legal_case" match="any">
             <text macro="year-date"/>

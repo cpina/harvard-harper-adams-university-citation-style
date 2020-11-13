@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/jen/university/msc_harper_adams/git/harper-adams-style/venv/bin/python3
+#!/usr/bin/env python3
 
 import argparse
 

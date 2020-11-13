@@ -6,13 +6,17 @@
     <link href="http://www.zotero.org/styles/harvard-harper-adams-university" rel="self"/>
     <link href="http://libweb.anglia.ac.uk/referencing/harvard.htm" rel="documentation"/>
     <author>
-      <name>Steven Singleton</name>
-      <email>stvn@gmx.ie</email>
+      <name>Carles Pina i Estany</name>
+      <email>carles@pina.cat</email>
+    </author>
+    <author>
+      <name>Jen Thomas</name>
+      <email>jen</email>
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <summary>Anglia Ruskin University Harvard style</summary>
-    <updated>2019-06-07T00:38:16+00:00</updated>
+    <summary>Harper Adams University Harvard style</summary>
+    <updated>2020-11-13T12:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="cite-author">

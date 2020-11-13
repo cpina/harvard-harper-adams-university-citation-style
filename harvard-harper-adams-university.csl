@@ -174,10 +174,13 @@
         </group>
       </else-if>
       <else>
+        <group delimiter=". ">
+        <text variable="number" prefix="(" suffix=")"/>
         <group delimiter=": ">
           <text variable="publisher-place"/>
           <text variable="publisher"/>
         </group>
+	</group>
       </else>
     </choose>
   </macro>

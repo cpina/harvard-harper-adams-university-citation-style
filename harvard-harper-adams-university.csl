@@ -323,8 +323,10 @@
     <choose>
       <if variable="URL">
         <group>
-          <text term="available at" text-case="capitalize-first" prefix=" " suffix=": "/>
-          <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+	  <group>
+            <text prefix=" " value="Available from: "/>
+            <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+	  </group>
           <group prefix=" [" suffix="].">
             <text term="accessed" text-case="capitalize-first" suffix=" "/>
             <date variable="accessed" delimiter=" ">

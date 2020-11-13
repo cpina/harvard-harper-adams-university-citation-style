@@ -33,7 +33,7 @@
       <else>
         <names variable="author">
           <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>
-          <label form="short" prefix=" "/>
+          <label form="short" prefix=" " font-style="italic"/>
           <substitute>
             <names variable="editor"/>
             <text macro="anon"/>

@@ -7,12 +7,12 @@ BIBTEX_FILE="documents.bib"
 BIBTEX_NO_URLS_FILE='documents-no-urls.bib'
 
 mkdir -p tmp
-OUTPUT_HTML_FILE="tmp/bibliography-actual.html"
+OUTPUT_HTML_FILE="tmp/actual.html"
 
-OUTPUT_PDF_FILE="tmp/bibliography-actual.pdf"
-OUTPUT_MARKDOWN_FILE="tmp/bibliography-actual.md"
+OUTPUT_PDF_FILE="tmp/actual.pdf"
+OUTPUT_MARKDOWN_FILE="tmp/actual.md"
 
-EXPECTED_FILE="bibliography-expected.html"
+EXPECTED_FILE="expected.html"
 
 # removes urls if they are tagged as no-urls
 ./tools/filter_urls.py "$BIBTEX_FILE" "$BIBTEX_NO_URLS_FILE"

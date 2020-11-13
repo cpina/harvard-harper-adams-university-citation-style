@@ -4,7 +4,7 @@ This repository contains:
 
 * [Harper Adams University citation style](#use-harper-adams-university-citation-style) in CSL format
 * [Background](#background) on the style
-* [Files](#files) description of the files and how to use them
+* [Files](#files-in-the-repository) description of the files and how to use them
 
 ## Use Harper Adams University citation style
 
@@ -46,7 +46,7 @@ We have tested this using [Zotero](http://zotero.org/) with [Better BibTeX plugi
 
 See the file [test-style.sh](#test-stylesh)
 
-## Files
+## Files in the repository
 
 ### expected.html
 

@@ -274,7 +274,7 @@
     <choose>
       <if type="article-journal article-newspaper article-magazine interview" match="any">
         <group delimiter=", " suffix=".">
-          <group>
+          <group delimiter=" ">
             <text variable="volume"/>
             <text variable="issue" prefix="(" suffix=")"/>
           </group>
@@ -398,9 +398,9 @@
           <text macro="bill-detail"/>
           <text macro="container"/>
         </group>
+        <text macro="locator"/>
         <text macro="container-online"/>
         <text macro="legal-detail"/>
-        <text macro="locator"/>
       </group>
       <text macro="online-access"/>
     </layout>

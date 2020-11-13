@@ -282,7 +282,7 @@
             <if type="article-magazine article-newspaper interview" match="any">
               <date variable="issued" delimiter=" ">
                 <date-part name="day"/>
-                <date-part name="month" form="short"/>
+                <date-part name="month"/>
               </date>
             </if>
           </choose>
@@ -315,7 +315,7 @@
           <group>
             <date variable="issued" delimiter=" ">
               <date-part name="day"/>
-              <date-part name="month" form="short"/>
+              <date-part name="month"/>
             </date>
           </group>
         </group>
@@ -334,7 +334,7 @@
             <text term="accessed" text-case="capitalize-first" suffix=" "/>
             <date variable="accessed" delimiter=" ">
               <date-part name="day"/>
-              <date-part name="month" form="short"/>
+              <date-part name="month"/>
               <date-part name="year"/>
             </date>
           </group>

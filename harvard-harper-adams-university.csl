@@ -332,7 +332,7 @@
         <group>
 	  <group>
             <text prefix=" " value="Available from: "/>
-            <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+            <text variable="URL"/>
 	  </group>
           <group prefix=" [" suffix="].">
             <text term="accessed" text-case="capitalize-first" suffix=" "/>

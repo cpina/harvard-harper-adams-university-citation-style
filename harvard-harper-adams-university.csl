@@ -183,6 +183,7 @@
       <else>
         <group delimiter=". ">
         <text variable="number" prefix="(" suffix=")"/>
+        <text macro="genre-online-marker"/>
         <group delimiter=": ">
           <text variable="publisher-place"/>
           <text variable="publisher"/>
@@ -397,7 +398,6 @@
       </group>
       <group delimiter=" ">
         <text macro="primary-title" suffix="."/>
-        <text macro="genre-online-marker"/>
         <group delimiter=". " prefix=" ">
           <text macro="translator"/>
           <text macro="bill-detail"/>

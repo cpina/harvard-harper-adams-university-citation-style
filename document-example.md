@@ -50,7 +50,7 @@
   
 ### Other reports that do not match these (or other Harper example) formats
 
-  * **In text**: @ipbesAssessmentReportIntergovernmental2016 **Citation**: [@ipbesAssessmentReportIntergovernmental2016]
+  * **In text**: @ipbesintergovernmentalscience-policyplatformonbiodiversityandecosystemservicesAssessmentReportIntergovernmental2016 **Citation**: [@ipbesintergovernmentalscience-policyplatformonbiodiversityandecosystemservicesAssessmentReportIntergovernmental2016]
 
 # Bibliography
 

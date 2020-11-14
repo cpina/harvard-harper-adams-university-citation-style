@@ -38,6 +38,10 @@ Not all of the potential reference types have been tested and fully checked due 
 Each of these types can be see in the `documents.bib` and `expected.html` files. There are also an additional four examples which are not in the Harper Adams Guide for Authors. 
 More types will be verified as time allows. 
 
+### Known errors
+
+ * For the document with author "IGD (Institute of Grocery Distribution)" (see document in "Market/consumer report (print)"): the guide for authors says that the citation should be **(IGD, 2008)** but the reference should be **IGD (Institute of Grocery Distribution). 2008. UK grocery retail outlook. Watford: IGD.** As far as we know currently the citation style language does not support short and long author names.
+
 ### Testing 
 
 We have tested this using [Zotero](http://zotero.org/) with [Better BibTeX plugin](https://retorque.re/zotero-better-bibtex/installation/) using the exporter `Better BibLaTeX` which allows us to:

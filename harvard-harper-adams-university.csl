@@ -112,7 +112,7 @@
   </macro>
   <macro name="genre-online-marker">
     <choose>
-      <if type="report webpage book thesis interview patent speech" match="any">
+      <if type="report webpage dataset book thesis interview patent speech" match="any">
         <choose>
           <if variable="URL">
             <choose>
@@ -301,7 +301,7 @@
           </choose>
         </group>
       </if>
-      <else-if type="book chapter paper-conference manuscript entry-dictionary entry-encyclopedia thesis motion_picture song report" match="any">
+      <else-if type="book dataset chapter paper-conference manuscript entry-dictionary entry-encyclopedia thesis motion_picture song report" match="any">
         <group suffix=".">
           <text variable="event" suffix=". "/>
           <group delimiter=".">

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env /home/jen/university/msc_harper_adams/git/harvard-harper-adams-university-citation-style/venv/bin/python3
 
 # Harper Adams style has a concept of "this is an only online journal"
 # or "print journal". If it is in print the style says to not include the URL.

@@ -15,6 +15,7 @@
   * **In text**: @RefWorks:doc:5fa9c88fe4b035e8035d4821 **Citation**: [@RefWorks:doc:5fa9c88fe4b035e8035d4821]
   * **In text**: @RefWorks:doc:5fa9c88ee4b035e8035d481c **Citation**: [@RefWorks:doc:5fa9c88ee4b035e8035d481c]
   * **In text**: @RefWorks:doc:5fa9c88fe4b035e8035d4822 **Citation**: [@RefWorks:doc:5fa9c88fe4b035e8035d4822]
+  * **In text**: @vandenbeltEcosystemServicesNew2014 **Citation**: [@vandenbeltEcosystemServicesNew2014]
 
 ## Books
 ### Book with author

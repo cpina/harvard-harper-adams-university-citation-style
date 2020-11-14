@@ -3,53 +3,53 @@
 ## Journal articles
 ### Online only
 
-  * @skampardonisFactorsAssociatedOccurrence2012
+  * **In text**: @skampardonisFactorsAssociatedOccurrence2012 **Citation**: [@skampardonisFactorsAssociatedOccurrence2012]
   
 ### Online and print versions same
 
-  * @manningGAPFrameworkFresh2013
+  * **In text**: @manningGAPFrameworkFresh2013 **Citation**: [@manningGAPFrameworkFresh2013]
   
 ### Additional examples
 
-  * @RefWorks:doc:5fa9c88fe4b035e8035d4838
-  * @RefWorks:doc:5fa9c88fe4b035e8035d4821
-  * @RefWorks:doc:5fa9c88ee4b035e8035d481c
-  * @RefWorks:doc:5fa9c88fe4b035e8035d4822
+  * **In text**: @RefWorks:doc:5fa9c88fe4b035e8035d4838 **Citation**: [@RefWorks:doc:5fa9c88fe4b035e8035d4838]
+  * **In text**: @RefWorks:doc:5fa9c88fe4b035e8035d4821 **Citation**: [@RefWorks:doc:5fa9c88fe4b035e8035d4821]
+  * **In text**: @RefWorks:doc:5fa9c88ee4b035e8035d481c **Citation**: [@RefWorks:doc:5fa9c88ee4b035e8035d481c]
+  * **In text**: @RefWorks:doc:5fa9c88fe4b035e8035d4822 **Citation**: [@RefWorks:doc:5fa9c88fe4b035e8035d4822]
 
 ## Books
 ### Book with author
 
-  * @belzSustainabilityMarketingGlobal2013
+  * **In text**: @belzSustainabilityMarketingGlobal2013 **Citation**: [@belzSustainabilityMarketingGlobal2013]
   
 ### Book with an editor
 
-  * @schaerClinicalMedicineDog2010
+  * **In text**: @schaerClinicalMedicineDog2010 **Citation**: [@schaerClinicalMedicineDog2010]
 
 ## Data
 ### Online farm data
 
-  * @harperadamsuniversityMilkMonitorApril2013
+  * **In text**: @harperadamsuniversityMilkMonitorApril2013 **Citation**: [@harperadamsuniversityMilkMonitorApril2013]
   
 ### Other datasets
 
-  * @landcareresearchnewzealandltdLandCoverDatabase2019
+  * **In text**: @landcareresearchnewzealandltdLandCoverDatabase2019 **Citation**: [@landcareresearchnewzealandltdLandCoverDatabase2019]
 
 ## Reports
 ### Market/consumer report and market information (online)
 
-  * @keynoteActivityHolidaysMarket2014
+  * **In text**: @keynoteActivityHolidaysMarket2014 **Citation**: [@keynoteActivityHolidaysMarket2014]
   
 ### Market/consumer report (print); reference without editor
   
-  * @igdinstituteofgrocerydistributionUKGroceryRetail2008
+  * **In text**: @igdinstituteofgrocerydistributionUKGroceryRetail2008 **Citation**: [@igdinstituteofgrocerydistributionUKGroceryRetail2008]
   
 ### Command paper and white paper
 
-  * @defradepartmentforfoodenvironmentandruralaffairsFinalReportCommittee2000
+  * **In text**: @defradepartmentforfoodenvironmentandruralaffairsFinalReportCommittee2000 **Citation**: [@defradepartmentforfoodenvironmentandruralaffairsFinalReportCommittee2000]
   
 ### Other reports that do not match these (or other Harper example) formats
 
-  * @ipbesAssessmentReportIntergovernmental2016
+  * **In text**: @ipbesAssessmentReportIntergovernmental2016 **Citation**: [@ipbesAssessmentReportIntergovernmental2016]
 
 # Bibliography
 

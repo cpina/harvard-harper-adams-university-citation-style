@@ -188,7 +188,7 @@
             <text variable="publisher-place"/>
             <text variable="publisher"/>
           </group>
-	</group>
+       </group>
       </else>
     </choose>
   </macro>
@@ -398,11 +398,11 @@
       </group>
       <group delimiter=" ">
         <text macro="primary-title" suffix="."/>
-	<choose>
-	  <if type="webpage">
+        <choose>
+          <if type="webpage">
             <text macro="genre-online-marker"/>
-	  </if>
-	</choose>
+          </if>
+        </choose>
         <group delimiter=". " prefix=" ">
           <text macro="translator"/>
           <text macro="bill-detail"/>

@@ -62,13 +62,13 @@ Based on the [Harper Adams Guide for Authors](https://www.harper-adams.ac.uk/uni
 
 A minimal Markdown document citing documents.
 
-### harvard-harper-adams-university.csl
+### harper-adams-university-harvard.csl
 
 The current citation style.
 
 ### test-style.sh
 
-Test the style: using Pandoc, this will generates HTML output based on: `document-example.md` text, `documents.bib` BibLaTeX and `harvard-harper-adams-university.csl`.
+Test the style: using Pandoc, this will generates HTML output based on: `document-example.md` text, `documents.bib` BibLaTeX and `harper-adams-university-harvard.csl`.
 
 The output will be: `PASS!` or `FAILED!` with information for this.
 

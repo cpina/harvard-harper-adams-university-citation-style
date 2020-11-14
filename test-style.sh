@@ -22,7 +22,7 @@ for OUTPUT_FILE in "$OUTPUT_HTML_FILE" # "$OUTPUT_PDF_FILE" "$OUTPUT_MARKDOWN_FI
 do
 	pandoc --pdf-engine=xelatex \
 		--bibliography "$BIBTEX_NO_URLS_FILE" \
-		--csl harvard-harper-adams-university.csl \
+		--csl harper-adams-university-harvard.csl \
 		-f markdown document-example.md \
 		-o "$OUTPUT_FILE"
 	echo "Generated file: $OUTPUT_FILE"
@@ -30,10 +30,10 @@ done
 	
 pandoc --pdf-engine=xelatex \
 	--bibliography "$BIBTEX_NO_URLS_FILE" \
-	--csl harvard-harper-adams-university.csl \
+	--csl harper-adams-university-harvard.csl \
 	-f markdown document-example.md \
 	-s \
-	-o "expected-full.html"
+	-o "expected-full-html.html"
 
 echo
 echo "Expected file : $EXPECTED_FILE"

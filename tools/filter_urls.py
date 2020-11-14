@@ -26,7 +26,7 @@ def filter_urls_out(input_file_path, output_file_path):
     bib_database = bibtexparser.load(bibtex_input_file, parser)
 
     for entry in bib_database.entries:
-        if 'no-url' in entry.get('keywords', []):
+        if 'no-url' in entry.get('keywords', []) and 'url' in entry:
             del entry['url']
 
     # write

@@ -398,6 +398,11 @@
       </group>
       <group delimiter=" ">
         <text macro="primary-title" suffix="."/>
+	<choose>
+	  <if type="webpage">
+	    <text macro="genre-online-marker"/>
+	  </if>
+	</choose>
         <group delimiter=". " prefix=" ">
           <text macro="translator"/>
           <text macro="bill-detail"/>

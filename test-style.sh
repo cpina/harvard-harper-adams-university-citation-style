@@ -27,6 +27,13 @@ do
 		-o "$OUTPUT_FILE"
 	echo "Generated file: $OUTPUT_FILE"
 done
+	
+pandoc --pdf-engine=xelatex \
+	--bibliography "$BIBTEX_NO_URLS_FILE" \
+	--csl harvard-harper-adams-university.csl \
+	-f markdown document-example.md \
+	-s \
+	-o "expected-full.html"
 
 echo
 echo "Expected file : $EXPECTED_FILE"

@@ -72,6 +72,14 @@ Test the style: using Pandoc, this will generates HTML output based on: `documen
 
 The output will be: `PASS!` or `FAILED!` with information for this.
 
+It uses `tools/filter_urls.py` which uses `bibtexparser` Python3 package. To install it you could use a virtual environment with the following steps:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
 ### tools/filter_urls.py
 
 Script to filter URLs out of the reference based on the `no-url` document keyword.

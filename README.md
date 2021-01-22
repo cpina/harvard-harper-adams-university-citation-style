@@ -10,7 +10,7 @@ This repository contains:
 
 ## Use Harper Adams University citation style
 
-To use the Harper Adams University citation style in CSL format with reference managers and different writing tools (such as LaTeX, Pandoc, RMarkdown): download the file `harvard-harper-adams-university.csl` from your reference manager (e.g. Zotero, Mendeley) or from the [Citation Ctyle Language](https://github.com/citation-style-language/styles/) repository (if available).
+To use the Harper Adams University citation style in CSL format with reference managers and different writing tools (such as LaTeX, Pandoc, RMarkdown): download the file `harvard-harper-adams-university.csl` from your reference manager (e.g. Zotero, Mendeley) or from the [Citation Style Language](https://github.com/citation-style-language/styles/) repository (if available).
 
 ## Background
 
@@ -20,7 +20,7 @@ We have prepared a Harper Adams University citation style using the [Citation St
 
 The style is based on the [Harvard Anglia Ruskin style](https://github.com/citation-style-language/styles/blob/master/harvard-anglia-ruskin-university.csl) with modifications (this was the closest example we could find to get started).
 
-We used the [Guide for Authors](https://www.harper-adams.ac.uk/university-life/library/study-skills/citing-and-referencing.cfm) to tweak it to conform to the Harper Adams University style. Sadly there are some inconsistencies between recommendations and examples, that we have flagged to the librarians. In case of inconsistencies in the examples we have followed, the recommendation of the library team.
+We used the [Guide for Authors](https://www.harper-adams.ac.uk/university-life/library/study-skills/citing-and-referencing.cfm) to tweak it to conform to the Harper Adams University style. Sadly there are some inconsistencies between recommendations and examples, that we have flagged to the librarians. In case of inconsistencies in the examples, we followed the recommendation of the library team.
 
 ### Style verification
 
@@ -35,8 +35,7 @@ Not all of the potential reference types have been tested and fully checked due 
 * [Market/consumer report and market information (online)](https://www.harper-adams.ac.uk/university-life/library/study-skills/citing-and-referencing.cfm?title=M#Market/consumer-report-and-market-information-(Online))
 * [Online Farm (virtual farm) data](https://www.harper-adams.ac.uk/university-life/library/study-skills/citing-and-referencing.cfm?title=O#Online-Farm-(virtual-farm)-Data)
 
-Each of these types can be see in the `documents.bib` and `expected.html` files. There are also an additional four examples which are not in the Harper Adams Guide for Authors. 
-More types will be verified as time allows. 
+Each of these types can be see in the `documents.bib` and `expected.html` files. There are also an additional four examples which are not in the Harper Adams Guide for Authors. More types will be verified as time allows. 
 
 ### Known errors
 
@@ -44,7 +43,7 @@ More types will be verified as time allows.
 
 ### Testing 
 
-We have tested this using [Zotero](http://zotero.org/) with [Better BibTeX plugin](https://retorque.re/zotero-better-bibtex/installation/) using the exporter `Better BibLaTeX` which allows us to:
+We have tested this using [Zotero](http://zotero.org/) with the [Better BibTeX plugin](https://retorque.re/zotero-better-bibtex/installation/) using the exporter `Better BibLaTeX` which allows us to:
 
  * Force italics in titles: `This article describes <i>names of species</i>`
  * Protect the case: `Cross pollination of ‘Sundrop’ apricot (<span class="nocase">prunus armeniaca</span> L.) <span class="nocase">by</span> honeybees`)
@@ -84,6 +83,9 @@ If you want to use `filter_urls.py` you need to install bibtexparser. This can b
 
 To be documented and cleaned soon.
 
+## Contributions and further development
 
+If there are specific reference types that you require that are not verified yet, or if you spot an error, please do let us know by creating a [Github issue](https://github.com/cpina/harvard-harper-adams-university-citation-style/issues). 
+ 
 Jen Thomas, Carles Pina Estany
 November 2020

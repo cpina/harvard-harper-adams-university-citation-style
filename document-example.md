@@ -52,6 +52,9 @@
 
   * **In text**: @ipbesintergovernmentalscience-policyplatformonbiodiversityandecosystemservicesAssessmentReportIntergovernmental2016 **Citation**: [@ipbesintergovernmentalscience-policyplatformonbiodiversityandecosystemservicesAssessmentReportIntergovernmental2016]
 
+### Software
+  * **In text**: @grantadesignCESEduPackSoftware2016 **Citation**: [@grantadesignCESEduPackSoftware2016]
+
 # Bibliography
 
 ::: {#refs}

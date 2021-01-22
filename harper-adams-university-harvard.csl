@@ -185,7 +185,14 @@
           <text variable="number" prefix="(" suffix=")"/>
           <text macro="genre-online-marker"/>
           <group delimiter=": ">
-            <text variable="publisher-place"/>
+            <choose>
+              <if type="book" variable="version" match="all">
+              <!-- Replace with type="software" -->
+              </if>
+              <else>
+                <text variable="publisher-place"/>
+              </else>
+            </choose>
             <text variable="publisher"/>
           </group>
         </group>
